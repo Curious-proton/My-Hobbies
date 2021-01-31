@@ -1,0 +1,8 @@
+body{
+  background: grey;
+  padding: 20px 40 px;
+ul{
+    margin: 100px 100px ;
+    width: 350px;
+    border: dotted;
+}
