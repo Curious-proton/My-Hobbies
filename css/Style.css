@@ -103,8 +103,9 @@ footer{
     position: relative;
 }
 .psevdo::after{
-    background-color: #0ff9;
-    width: 300;
+    background: #0ff5;
+    width: 300px;
+	height: 200px;
     content: "";
     position: absolute;
     top: 0;
