@@ -102,6 +102,17 @@ footer{
 .psevdo{
     position: relative;
 }
+.relative{
+	position: relative;
+	width: 270px;
+	margin: 10px;
+}
+.absolute{
+	position: absolute;
+	height: 30px;
+	left: 0;
+	right: 0;
+}
 .psevdo::after{
     background: #0ff5;
     width: 300px;
