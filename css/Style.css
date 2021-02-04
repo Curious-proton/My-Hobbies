@@ -59,26 +59,30 @@ header{
     text-align: center;
 }
 h2{
-    font-size: 20px;
+    font-size: 30px;
     font-weight:bold;
     text-decoration: underline;
 }
 .article{
     margin: 35px 20px 20px 35px;
 }
-.first{
-    color: red;
+.paragraph{
+    margin: 15px 0px 10px 0px;
+    font-size: 20px;
 }
-#second{
-    font-size: 25px;
+ul{
+    list-style: disc;
 }
-.third{
-    font-weight: bold;
-    color: orange
-}
-.center{
-    text-align: center;
+li{
+    margin-left: 35px;
 }
 .fig {
-    text-align: center;
+    text-align: left;
+    margin: 0px 15px 5px 0px;
+    float: left;
+}
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
 }
